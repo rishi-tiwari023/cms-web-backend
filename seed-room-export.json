@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "ADMIN",
+      "name": "Admin User",
+      "email": "admin@cms.com",
+      "createdAt": "2025-09-26T06:05:03.199Z"
+    },
+    {
+      "id": "student-1",
+      "username": "pranjal",
+      "password": "pranjal123",
+      "role": "STUDENT",
+      "name": "Pranjal Patel",
+      "email": "pranjal@student.com",
+      "createdAt": "2025-09-26T06:05:03.201Z"
+    },
+    {
+      "id": "student-2",
+      "username": "rishi",
+      "password": "rishi123",
+      "role": "STUDENT",
+      "name": "Rishi Tiwari",
+      "email": "rishi@student.com",
+      "createdAt": "2025-09-26T06:05:03.201Z"
+    },
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "ADMIN",
+      "name": "Admin User",
+      "email": "admin@cms.com",
+      "createdAt": "2025-09-26T06:05:03.201Z"
+    },
+    {
+      "id": "student-1",
+      "username": "pranjal",
+      "password": "pranjal123",
+      "role": "STUDENT",
+      "name": "Pranjal Patel",
+      "email": "pranjal@student.com",
+      "createdAt": "2025-09-26T06:05:03.201Z"
+    },
+    {
+      "id": "student-2",
+      "username": "rishi",
+      "password": "rishi123",
+      "role": "STUDENT",
+      "name": "Rishi Tiwari",
+      "email": "rishi@student.com",
+      "createdAt": "2025-09-26T06:05:03.201Z"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "Research Project Alpha",
+      "description": "Conduct comprehensive research on emerging technologies in mobile development",
+      "status": "ASSIGNED",
+      "assignedTo": "student-1",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.202Z",
+      "updatedAt": "2025-09-26T06:05:03.202Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-2",
+      "title": "Data Analysis Report",
+      "description": "Analyze user behavior data and create detailed reports with recommendations",
+      "status": "ASSIGNED",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.202Z",
+      "updatedAt": "2025-09-26T06:05:03.202Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-3",
+      "title": "Mobile App Development",
+      "description": "Develop a cross-platform mobile application using Flutter with backend integration",
+      "status": "ASSIGNED",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.202Z",
+      "updatedAt": "2025-09-26T06:05:03.202Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-4",
+      "title": "Database Optimization",
+      "description": "Optimize database queries and improve performance for the CMS system",
+      "status": "ASSIGNED",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.202Z",
+      "updatedAt": "2025-09-26T06:05:03.202Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-5",
+      "title": "UI/UX Design Review",
+      "description": "Review and improve the user interface design for better user experience",
+      "status": "OPEN",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.202Z",
+      "updatedAt": "2025-09-26T06:05:03.203Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-6",
+      "title": "API Documentation",
+      "description": "Create comprehensive documentation for the new API endpoints and integration guides",
+      "status": "CLOSED",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.203Z",
+      "updatedAt": "2025-09-26T06:05:03.203Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    },
+    {
+      "id": "case-7",
+      "title": "Security Audit",
+      "description": "Conduct security audit and implement necessary security measures",
+      "status": "ASSIGNED",
+      "assignedTo": "student-2",
+      "createdBy": "admin-1",
+      "createdAt": "2025-09-26T06:05:03.203Z",
+      "updatedAt": "2025-09-26T06:05:03.203Z",
+      "progressPercentage": 0,
+      "documentStatus": "NOT_UPLOADED"
+    }
+  ],
+  "progress": [
+    {
+      "id": "progress-1",
+      "userId": "student-1",
+      "caseId": "case-1",
+      "progressPercentage": 35,
+      "notes": "Completed initial research phase and documentation",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-2",
+      "userId": "student-2",
+      "caseId": "case-2",
+      "progressPercentage": 0,
+      "notes": "Case assigned and initial setup completed",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-3",
+      "userId": "student-2",
+      "caseId": "case-2",
+      "progressPercentage": 25,
+      "notes": "Data collection phase completed, started analysis",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-4",
+      "userId": "student-2",
+      "caseId": "case-2",
+      "progressPercentage": 50,
+      "notes": "Data analysis completed, working on report generation",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-5",
+      "userId": "student-2",
+      "caseId": "case-2",
+      "progressPercentage": 75,
+      "notes": "Report generation completed, under review",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-6",
+      "userId": "student-2",
+      "caseId": "case-3",
+      "progressPercentage": 0,
+      "notes": "Project kickoff and requirements gathering",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-7",
+      "userId": "student-2",
+      "caseId": "case-3",
+      "progressPercentage": 20,
+      "notes": "UI/UX design completed, started development",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-8",
+      "userId": "student-2",
+      "caseId": "case-3",
+      "progressPercentage": 45,
+      "notes": "Core features implemented, working on backend integration",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-9",
+      "userId": "student-2",
+      "caseId": "case-4",
+      "progressPercentage": 0,
+      "notes": "Database analysis started",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-10",
+      "userId": "student-2",
+      "caseId": "case-4",
+      "progressPercentage": 30,
+      "notes": "Identified performance bottlenecks",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-11",
+      "userId": "student-2",
+      "caseId": "case-4",
+      "progressPercentage": 60,
+      "notes": "Query optimization completed",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-12",
+      "userId": "student-2",
+      "caseId": "case-4",
+      "progressPercentage": 90,
+      "notes": "Performance improvements implemented, final testing",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-13",
+      "userId": "student-2",
+      "caseId": "case-6",
+      "progressPercentage": 0,
+      "notes": "Project started, gathering API requirements",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-14",
+      "userId": "student-2",
+      "caseId": "case-6",
+      "progressPercentage": 25,
+      "notes": "API endpoints documented",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-15",
+      "userId": "student-2",
+      "caseId": "case-6",
+      "progressPercentage": 50,
+      "notes": "Integration guides created",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-16",
+      "userId": "student-2",
+      "caseId": "case-6",
+      "progressPercentage": 75,
+      "notes": "Code examples and tutorials added",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-17",
+      "userId": "student-2",
+      "caseId": "case-6",
+      "progressPercentage": 100,
+      "notes": "Documentation completed and approved",
+      "updatedAt": "2025-09-26T06:05:03.203Z"
+    },
+    {
+      "id": "progress-18",
+      "userId": "student-2",
+      "caseId": "case-7",
+      "progressPercentage": 0,
+      "notes": "Security audit initiated",
+      "updatedAt": "2025-09-26T06:05:03.204Z"
+    },
+    {
+      "id": "progress-19",
+      "userId": "student-2",
+      "caseId": "case-7",
+      "progressPercentage": 25,
+      "notes": "Initial security assessment completed",
+      "updatedAt": "2025-09-26T06:05:03.204Z"
+    }
+  ]
+}
